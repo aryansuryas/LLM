@@ -1,2 +1,2 @@
 # LLM
-this repo contains the basis of creating and building model
+so this repo will contain all the major code and notes for the large language modelling and also language modelling to train data and find tuning it
