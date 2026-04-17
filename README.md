@@ -3,3 +3,4 @@ so this repo will contain all the major code and notes for the large language mo
 RAG                                  
 Pipelining
 Fine tuning
+Data Train
