@@ -4,4 +4,4 @@ RAG
 Pipelining
 Fine tuning
 Data Train
-oLaama usiing
+Using OLama 
