@@ -1,5 +1,5 @@
 # LLM
-This Repo Contains the Complete Information About The Large Langu
+This Repo Contains the Complete Information About The Large Language Model
 RAG                                      
 Pipelining             
 Fine tuning          
