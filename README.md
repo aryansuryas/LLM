@@ -5,4 +5,4 @@ Pipelining
 Fine tuning          
 Data Train
 Using OLama..                      
-and also the
+and also the main content
