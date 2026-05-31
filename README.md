@@ -3,6 +3,4 @@ This Repo Contains the Complete Information About The Large Language Model & The
 RAG                                      
 Pipelining             
 Fine tuning          
-Data Train
-Using OLama..                      
-and also the main content
+Data Train Using OLama..                      
