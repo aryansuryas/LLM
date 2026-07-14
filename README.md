@@ -6,7 +6,28 @@
 > This is the exact workflow to recreate everything if your PC is formatted.
 
 ---
-
+               Your VS Code
+                    │
+                    ▼
+          http://localhost:3001/v1
+                    │
+                    ▼
+        ┌──────────────────────────┐
+        │      Docker Container     │
+        │                           │
+        │      FreeLLMAPI Server    │
+        │                           │
+        └──────────────────────────┘
+                    │
+        ┌───────────┼────────────┐
+        ▼           ▼            ▼
+     Google       Groq      GitHub Models
+        │           │            │
+        ▼           ▼            ▼
+             AI Response
+                    │
+                    ▼
+              Your Project
 # Goal
 
 Run **FreeLLMAPI** locally using Docker, connect free AI providers (Google, Groq, etc.), and use it inside VS Code (Cline/OpenAI compatible clients).
