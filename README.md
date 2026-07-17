@@ -764,3 +764,114 @@ llama-3.3-70b
 
 You now have a local AI gateway that can route requests across multiple free providers, fail over automatically when one reaches its limit, and be used by VS Code, Cline, OpenAI-compatible SDKs, or your own applications.
 ````
+
+#Plan : B
+# Claude Fable 5 + Aerolink Setup Guide
+
+## Step 1: Install Claude Desktop
+- Download and install Claude Desktop for Windows.
+- Open the application.
+- Click **Get Started**.
+
+---
+
+## Step 2: Open the Main Menu
+- Maximize the Claude window (if needed).
+- Click the **☰ (Hamburger Menu)** in the top-left corner.
+
+---
+
+## Step 3: Enable Developer Mode
+Go to:
+
+Help → Troubleshooting → Enable Developer Mode
+
+---
+
+## Step 4: Confirm
+- When the confirmation popup appears,
+- Click **Enable**.
+
+---
+
+## Step 5: Open Third-Party Inference
+Open the menu again and go to:
+
+Developer → Configure Third-Party Inference
+
+---
+
+## Step 6: Configure Gateway
+Choose **Gateway** and enter:
+
+- **Base URL:** https://capi.aerolink.lat/
+- **API Key:** (generated in Aerolink)
+- **Authentication Scheme:** `x-api-key`
+- **Credential Type:** `Static API Key`
+
+Save the configuration.
+
+---
+
+## Step 7: Get Aerolink API Details
+1. Register on Aerolink.
+2. Login to your account.
+3. Join the Telegram group.
+4. Activate the **14-day trial**.
+5. Copy your **Base URL** from Documentation.
+6. Create or copy your **API Key**.
+7. Keep your API key private.
+
+Referral Link:
+https://aerolink.lat/register?ref=Y1GUN7O
+
+> The guide states that the trial provides **$140 in free credits**, subject to the provider's current offer.
+
+---
+
+## Step 8: Test Connection
+Back in Claude Desktop:
+
+- Click **Test Connection**.
+- Make sure the connection is successful.
+
+---
+
+## Step 9: Discover Models
+- Enable **Model Discovery**.
+- Wait for available models to load.
+- Click **Apply Changes**.
+
+---
+
+## Step 10: Select Claude Fable 5
+- Start a new chat.
+- Select **claude-fable-5** from the model picker.
+- Send a test message.
+- If it responds successfully, the setup is complete.
+
+---
+
+# Troubleshooting
+
+### Developer Menu Missing
+- Enable Developer Mode again.
+- Restart Claude Desktop.
+
+### Connection Failed
+Check:
+- Base URL
+- API Key
+- Authentication (`x-api-key`)
+- Gateway availability
+
+### Claude Fable 5 Not Showing
+- Run **Model Discovery** again.
+- Verify that your Aerolink account has access to the model.
+
+---
+
+# Security Notes
+- Your requests are routed through the configured gateway.
+- Review Aerolink's privacy, billing, and data retention policies before sending sensitive information.
+```
